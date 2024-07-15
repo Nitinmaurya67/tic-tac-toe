@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+h1{
+     text-align: center;
+     color:#591300;
+     background-color:#ffed9d;
+     box-shadow: inset  0px 1px 0px 1px  #5a5a5a;
+     font-size: 7vmin;
+     box-shadow: inset -3px -3px 0px #666454,
+            inset 3px 3px 0px #5a3900fb;
+}
+
+
+.body{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    /* background: #CCDAD1; */
+    background-image: url(bg.jpeg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93vh;
+    font-size:1em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.container{
+    height: 90vmin;
+    width: 70vmin;
+    border-radius: 15px;
+    position: relative;
+
+   
+
+
+}
+
+#score-bord{
+    height:10vmin;
+    color: #430e01;
+    background-color: rgb(255, 240, 171);
+    display: flex;
+    justify-content: space-around;
+    box-shadow: inset 2px 2px 0px #5a5a5a,
+            inset -2px -2px 0px #1f4d5400;
+    border-radius: 15px;
+    align-items:center;
+    font-size: 4vmin;
+    box-shadow: inset -3px -3px 0px #666454,
+            inset 3px 3px 0px #5a3900fb;
+    
+}
+
+.play-bord{
+        margin-top: 15px;
+        height:70vmin;
+        width: 70vmin;
+        color: #38302E;
+        border-radius: 15px;
+        text-align: center;
+        align-items:center ;
+}
+.box{
+    margin: 1px;
+    height: 20vmin;
+    width: 20vmin;
+    font-size:8vmin;
+    background-color: rgba(255, 234, 184, 0.913);
+    border-radius: 10px;
+    border: none;
+    color: rgb(100, 42, 0);
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    vertical-align: top;  /* set all the box after dislocation */
+
+box-shadow: inset -3px -3px 0px #666454,
+            inset 3px 3px 0px #5a3900fb;
+
+}
+
+
+#reset{
+
+    margin-top: 15px;
+    height: 7vmin;
+    width: 20vmin;
+    position: relative;
+    text-align: center;
+    left:20%;
+    top: -10%;
+    background-color: rgb(255, 245, 178);
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 0px #5a5a5a,
+            inset -2px -2px 0px #1f4d5473;
+    border: none;
+}
+
+#reset:hover{
+     background-color: rgb(255, 240, 143);
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 0px #5a5a5aa6,
+            inset -1px -1px 0px #1f4d543d;
+    
+}
+
