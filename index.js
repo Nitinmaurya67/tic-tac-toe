@@ -104,6 +104,8 @@ function restart() {
   clear();
   O_score.innerText = 0;
   X_score.innerText = 0;
+  Oscore=0;
+  Xscore=0;
 }
 
 
