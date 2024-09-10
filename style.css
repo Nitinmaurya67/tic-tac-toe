@@ -20,7 +20,6 @@ h1{
 
 
 .body{
-    cursor: url(target2.png)  ,pointer;
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -74,7 +73,7 @@ h1{
         align-items:center ;
 }
 .box{
-    cursor: url(target.png)  ,pointer;
+    cursor:pointer;
     margin: 1px;
     height: 20vmin;
     width: 20vmin;
